@@ -1,0 +1,10 @@
+﻿Bài 5: Hệ thống báo cáo
+Viết hệ thống xuất báo cáo với nhiều định dạng khác nhau:
+
+* Xuất báo cáo PDF
+* Xuất báo cáo Excel
+* Xuất báo cáo CSV
+Yêu cầu:
+
+* Nếu cần thêm định dạng mới (VD: XML, JSON), không cần sửa code cũ.
+* Sử dụng Strategy Pattern hoặc Factory Pattern để mở rộng.

@@ -1,4 +1,4 @@
-﻿using SOLID_Project.OCP.Exercise2_Discount.Interface;
+﻿using SOLID_Project.OCP.Exercise2_Discount.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

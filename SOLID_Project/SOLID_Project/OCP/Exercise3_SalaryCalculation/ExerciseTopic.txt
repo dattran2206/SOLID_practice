@@ -1,0 +1,9 @@
+﻿Bài 3: Hệ thống tính lương nhân viên
+Hệ thống có các loại nhân viên với mức lương khác nhau:
+
+* Nhân viên chính thức: Lương = lương cơ bản + 20% thưởng
+* Nhân viên hợp đồng: Lương = lương cơ bản + 10% thưởng
+* Nhân viên thực tập: Lương = lương cơ bản
+Yêu cầu:
+
+* Viết một class để tính lương nhưng có thể mở rộng khi thêm loại nhân viên mới mà không cần sửa code cũ.

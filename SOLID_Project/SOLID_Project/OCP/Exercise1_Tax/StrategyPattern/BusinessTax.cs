@@ -1,4 +1,4 @@
-﻿using SOLID_Project.OCP.Exercise1_Tax.Interface;
+﻿using SOLID_Project.OCP.Exercise1_Tax.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;

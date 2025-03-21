@@ -1,0 +1,10 @@
+﻿Bài 4: Tính phí giao hàng
+Viết hệ thống tính phí giao hàng với các phương thức:
+
+* Giao hàng nhanh: 30.000 VND
+* Giao hàng tiêu chuẩn: 20.000 VND
+* Giao hàng tiết kiệm: 10.000 VND
+Yêu cầu:
+
+* Hệ thống có thể mở rộng dễ dàng nếu thêm phương thức giao hàng mới.
+* Áp dụng Strategy Pattern để thay đổi thuật toán linh hoạt.
