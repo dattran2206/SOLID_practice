@@ -1,0 +1,9 @@
+# Ignore Visual Studio temporary files, build results, and
+# common files in the gitignore.io template
+
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
