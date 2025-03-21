@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="OCP\Exercise3_SalaryCalculation\Context\" />
-    <Folder Include="OCP\Exercise3_SalaryCalculation\Interface\" />
-    <Folder Include="OCP\Exercise3_SalaryCalculation\StrategyPattern\" />
-  </ItemGroup>
-
 </Project>
