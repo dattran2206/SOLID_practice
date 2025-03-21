@@ -1,0 +1,10 @@
+﻿
+Viết một class tính thuế thu nhập cá nhân với các loại thuế:
+
+Thuế nhân viên: 10% thu nhập.
+Thuế freelancer: 15% thu nhập.
+Thuế doanh nghiệp: 20% thu nhập.
+🔹 Yêu cầu:
+
+Viết một class để tính thuế nhưng đảm bảo nếu thêm loại thuế mới, không sửa code cũ.
+Áp dụng Strategy Pattern để mở rộng dễ dàng.
