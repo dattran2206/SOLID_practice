@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SOLID_Project.OCP.Exercise2_Discount.Interface
+namespace SOLID_Project.OCP.Exercise2_Discount.Interfaces
 {
     public interface IDiscountCalculator
     {

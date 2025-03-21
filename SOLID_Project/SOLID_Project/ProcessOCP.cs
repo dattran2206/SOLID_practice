@@ -1,10 +1,13 @@
-﻿using SOLID_Project.OCP.Exercise2_Discount;
-using SOLID_Project.OCP.Exercise1_Tax;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SOLID_Project.OCP.Exercise2_Discount;
+using SOLID_Project.OCP.Exercise1_Tax;
+using SOLID_Project.OCP.Exercise3_SalaryCalculation;
+using SOLID_Project.OCP.Exercise4_ShippingCosts;
+using SOLID_Project.OCP.Exercise5_ExportReport;
 
 namespace SOLID_Project
 {
@@ -29,6 +32,18 @@ namespace SOLID_Project
                         OCP_Excute2Process.Process();
                         NextExercise();
                         break;
+                    case 3:
+                        OCP_Excute3Process.Process();
+                        NextExercise();
+                        break;
+                    case 4:
+                        OCP_Excute4_Process.Process();
+                        NextExercise();
+                        break;
+                    case 5:
+                        OCP_Excute5_Process.Process();
+                        NextExercise();
+                        break;
                     default:
                         MainProcess.Process();
                         break;
@@ -42,6 +57,9 @@ namespace SOLID_Project
             Console.WriteLine("____________________Exercise OCP_____________________");
             Console.WriteLine("|1. Exercise 1: Tax_________________________________|");
             Console.WriteLine("|2. Exercise 2: Discount____________________________|");
+            Console.WriteLine("|3. Exercise 3: Salary calculator___________________|");
+            Console.WriteLine("|4. Exercise 4: Shipping costs______________________|");
+            Console.WriteLine("|5. Exercise 5: Export report_______________________|");
             Console.WriteLine("|0. Back____________________________________________|");
             Console.WriteLine("_____________________________________________________");
             Console.WriteLine();
@@ -59,7 +77,7 @@ namespace SOLID_Project
             }
             else
             {
-                MainProcess.Process();
+                Environment.Exit(0);
             }
         }
     }
